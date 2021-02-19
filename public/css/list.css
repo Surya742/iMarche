@@ -1,0 +1,46 @@
+body {
+    font-size: 1.2em;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 50px;
+  }
+  
+  .custom-counter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+  }
+  
+  .custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(0,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+
+  .container{
+      position: relative;
+      left: 40%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        left: 20%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      right: auto;
+      left: auto;
+    }
+  }
+  
+  

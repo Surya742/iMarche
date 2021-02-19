@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  /* The image used */
+  background-image: url("https://wallpapercave.com/wp/wp2542537.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.container{
+  position: relative;
+  top: 20%;
+  padding: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(47, 151, 151);
+}
+
+.custom-select {
+  /* wrapper style */
+  position: relative;
+  display: block;
+  max-width: 400px;
+  min-width: 180px;
+  margin: 0 auto;
+  /* the down arrow */
+}
+.custom-select select {
+  /* Select Reset */
+  border: 1px solid #b6b6b6;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  /* custom select appearance */
+  padding: 12px 55px 15px 15px;
+  font-size: 14px;
+}
+.custom-select:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  line-height: 50px;
+  content: "▼";
+  text-align: center;
+  z-index: -1;
+  background: #b6b6b6;
+  color: #fff;
+  font-size: 18px;
+}
+
+button{
+  position: relative;
+  left: 25%;
+  padding: 5px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #c2cfd3;
+  color: black;
+}
+
+button:hover{
+  background-color: rgb(27, 68, 68);
+  color: #fff;
+}
